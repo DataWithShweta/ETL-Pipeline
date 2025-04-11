@@ -1,0 +1,38 @@
+2025-04-05 09:24:27,186 - INFO - Successfully extracted Storeds.csv from GCS.
+2025-04-05 09:25:36,637 - INFO - Successfully extracted Storeds.csv from GCS.
+2025-04-05 12:52:18,974 - INFO - Successfully extracted Storeds.csv from GCS.
+2025-04-05 12:52:19,278 - INFO - Data transformation successful.
+2025-04-05 12:52:19,412 - INFO - Data successfully loaded into table 'Store_data'.
+2025-04-05 12:52:19,450 - INFO - Data verification successful. Sample data: 
+         order_id  order_date   ship_date       customer   manufactory  ... discount   profit quantity    sales profit_margin
+0  US-2020-103800  03-01-2019  07-01-2019  Darren Powers  Message Book  ...      0.2   5.5512        2   16.448        0.3375
+1  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober           GBC  ...      0.8  -5.4870        2    3.540       -1.5500
+2  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         Avery  ...      0.2   4.2717        3   11.784        0.3625
+3  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         SAFCO  ...      0.2 -64.7748        3  272.736       -0.2375
+4  US-2020-141817  05-01-2019  12-01-2019     Mick Brown         Avery  ...      0.2   4.8840        3   19.536        0.2500
+
+[5 rows x 19 columns]
+2025-04-05 12:54:48,525 - INFO - Successfully extracted Storeds.csv from GCS.
+2025-04-05 12:54:48,697 - INFO - Data transformation successful.
+2025-04-05 12:54:48,805 - INFO - Data successfully loaded into table 'Store_data'.
+2025-04-05 12:54:48,844 - INFO - Data verification successful. Sample data: 
+         order_id  order_date   ship_date       customer   manufactory  ... discount   profit quantity    sales profit_margin
+0  US-2020-103800  03-01-2019  07-01-2019  Darren Powers  Message Book  ...      0.2   5.5512        2   16.448        0.3375
+1  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober           GBC  ...      0.8  -5.4870        2    3.540       -1.5500
+2  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         Avery  ...      0.2   4.2717        3   11.784        0.3625
+3  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         SAFCO  ...      0.2 -64.7748        3  272.736       -0.2375
+4  US-2020-141817  05-01-2019  12-01-2019     Mick Brown         Avery  ...      0.2   4.8840        3   19.536        0.2500
+
+[5 rows x 19 columns]
+2025-04-05 12:56:26,351 - INFO - Successfully extracted Storeds.csv from GCS.
+2025-04-05 12:56:26,425 - INFO - Data transformation successful.
+2025-04-05 12:56:26,514 - INFO - Data successfully loaded into table 'Store_data'.
+2025-04-05 12:56:26,528 - INFO - Data verification successful. Sample data: 
+         order_id  order_date   ship_date       customer   manufactory  ... discount   profit quantity    sales profit_margin
+0  US-2020-103800  03-01-2019  07-01-2019  Darren Powers  Message Book  ...      0.2   5.5512        2   16.448        0.3375
+1  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober           GBC  ...      0.8  -5.4870        2    3.540       -1.5500
+2  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         Avery  ...      0.2   4.2717        3   11.784        0.3625
+3  US-2020-112326  04-01-2019  08-01-2019  Phillina Ober         SAFCO  ...      0.2 -64.7748        3  272.736       -0.2375
+4  US-2020-141817  05-01-2019  12-01-2019     Mick Brown         Avery  ...      0.2   4.8840        3   19.536        0.2500
+
+[5 rows x 19 columns]
