@@ -96,16 +96,3 @@ if __name__ == "__main__":
         schedule.run_pending()
         time.sleep(60)                               
         
-        
-        
-            
-            
-            ## LOADING TRANSFORMED DATA BACK TO GCS
-##def load_data_to_gcs(cleaned_path, bucket_name, cleaned_blob_name):
-    ##storage_client = storage.Client()
-    ##bucket = storage_client.bucket(bucket_name)
-    ##blob = bucket.blob(cleaned_blob_name)
-    ##blob.upload_from_filename(cleaned_path)
-    ##logging.info(f"Uploaded cleaned data to GCS at {cleaned_blob_name}")
-
-# just a comment
