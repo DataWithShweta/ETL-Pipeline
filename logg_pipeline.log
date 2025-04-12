@@ -36,3 +36,5 @@
 4  US-2020-141817  05-01-2019  12-01-2019     Mick Brown         Avery  ...      0.2   4.8840        3   19.536        0.2500
 
 [5 rows x 19 columns]
+2025-04-12 13:08:09,565 - ERROR - Error in data extraction: File C:\Users\shwet\OneDrive\Desktop\Project\ETL Pipeline\learning-pipeline-key.json was not found.
+2025-04-12 13:08:09,591 - ERROR - ETL job failed: transform_data() missing 1 required positional argument: 'cleaned_path'
