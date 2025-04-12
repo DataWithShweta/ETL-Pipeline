@@ -25,9 +25,9 @@ def extract_data_from_gcs(bucket_name, source_blob_name, destination_file_name )
         
 # extract_data_from_gcs('learning-pipeline-bucket','Storeds.csv' , './data/downloaded_Store_data.csv')        
 
-def transform_data(raw_path, cleaned_path):
+def transform_data(file_path):
     try:
-        df = pd.read_csv(raw_path)
+        df = pd.read_csv(file_path)
         # Remove null values
         df.dropna(inplace= True)
         # Standardizing column names
@@ -38,7 +38,7 @@ def transform_data(raw_path, cleaned_path):
         if 'date' in df.columns:
            df['date'] = pd.to_datetime(df['date'])
         
-        logging.info(f"Cleaned data saved to {cleaned_path}")
+        logging.info("Data transformation successful.")
         return df
     except Exception as e:
         logging.error(f"Error in data transformation: {e}")
